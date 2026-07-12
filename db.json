@@ -1,0 +1,402 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "manager@triplogix.com",
+      "passwordHash": "$2a$10$BQ9ozO8xZpE8lsuthoOSAuSKfNCdfAWFTu.G4QyhVaTWhwKCo4I7W",
+      "name": "Sarah Manager",
+      "role": "Fleet Manager"
+    },
+    {
+      "id": 2,
+      "email": "driver@triplogix.com",
+      "passwordHash": "$2a$10$BQ9ozO8xZpE8lsuthoOSAuSKfNCdfAWFTu.G4QyhVaTWhwKCo4I7W",
+      "name": "Alex Mercer",
+      "role": "Driver"
+    },
+    {
+      "id": 3,
+      "email": "safety@triplogix.com",
+      "passwordHash": "$2a$10$BQ9ozO8xZpE8lsuthoOSAuSKfNCdfAWFTu.G4QyhVaTWhwKCo4I7W",
+      "name": "Officer James",
+      "role": "Safety Officer"
+    },
+    {
+      "id": 4,
+      "email": "finance@triplogix.com",
+      "passwordHash": "$2a$10$BQ9ozO8xZpE8lsuthoOSAuSKfNCdfAWFTu.G4QyhVaTWhwKCo4I7W",
+      "name": "David Analyst",
+      "role": "Financial Analyst"
+    },
+    {
+      "id": 5,
+      "email": "tirth@gmail.com",
+      "passwordHash": "$2a$10$EeI2l7BYN6bq3KZcgVp9SuOb8z9ORgnMfrIyAWowUNFQn8OSSeLmO",
+      "name": "tirth",
+      "role": "Fleet Manager"
+    },
+    {
+      "id": 6,
+      "email": "ram@gmail.com",
+      "passwordHash": "$2a$10$Q/IwWF8jXh41l2.Iy.oDWOTK2LsKcd5ow4d0V8Gs6B2J16rf2WUYG",
+      "name": "Ram",
+      "role": "Fleet Manager"
+    },
+    {
+      "id": 7,
+      "email": "ron@gmail.com",
+      "passwordHash": "$2a$10$K3RA7ph2ZWw5kPJGBER3.eK5H/dBfqCc6B9a8c9YWkVowlwvnjz6K",
+      "name": "ron",
+      "role": "Fleet Manager"
+    }
+  ],
+  "vehicles": [
+    {
+      "id": 1,
+      "registrationNumber": "VAN-01",
+      "model": "Ford Transit 2022",
+      "type": "Van",
+      "maxLoadCapacity": 1200,
+      "odometer": 45000,
+      "acquisitionCost": 35000,
+      "status": "In Shop",
+      "region": "North"
+    },
+    {
+      "id": 2,
+      "registrationNumber": "TRK-02",
+      "model": "Volvo FH16",
+      "type": "Truck",
+      "maxLoadCapacity": 15000,
+      "odometer": 180000,
+      "acquisitionCost": 110000,
+      "status": "Retired",
+      "region": "East"
+    },
+    {
+      "id": 3,
+      "registrationNumber": "VAN-03",
+      "model": "Mercedes Sprinter",
+      "type": "Van",
+      "maxLoadCapacity": 15000,
+      "odometer": 62000,
+      "acquisitionCost": 48000,
+      "status": "In Shop",
+      "region": "North"
+    },
+    {
+      "id": 4,
+      "registrationNumber": "SED-04",
+      "model": "Toyota Prius",
+      "type": "Sedan",
+      "maxLoadCapacity": 400,
+      "odometer": 95000,
+      "acquisitionCost": 22000,
+      "status": "In Shop",
+      "region": "West"
+    },
+    {
+      "id": 5,
+      "registrationNumber": "TRK-05",
+      "model": "Scania R500",
+      "type": "Truck",
+      "maxLoadCapacity": 25000,
+      "odometer": 320000,
+      "acquisitionCost": 145000,
+      "status": "Retired",
+      "region": "South"
+    },
+    {
+      "id": 6,
+      "registrationNumber": "VAN - 01",
+      "model": "cargo",
+      "type": "Van",
+      "maxLoadCapacity": 500,
+      "odometer": 10000,
+      "acquisitionCost": 15000,
+      "status": "Available",
+      "region": "North"
+    },
+    {
+      "id": 7,
+      "registrationNumber": "VAN-05",
+      "model": "Audi",
+      "type": "Van",
+      "maxLoadCapacity": 500,
+      "odometer": 19600,
+      "acquisitionCost": 45000,
+      "status": "In Shop",
+      "region": "North"
+    }
+  ],
+  "drivers": [
+    {
+      "id": 1,
+      "name": "Alex Mercer",
+      "licenseNumber": "DL-99201",
+      "licenseCategory": "Class A",
+      "licenseExpiryDate": "2026-07-13",
+      "contactNumber": "9991117745",
+      "safetyScore": 92,
+      "status": "Available"
+    },
+    {
+      "id": 2,
+      "name": "Bob Harris",
+      "licenseNumber": "DL-88392",
+      "licenseCategory": "Class A",
+      "licenseExpiryDate": "2026-08-30",
+      "contactNumber": "555-0124",
+      "safetyScore": 85,
+      "status": "On Trip"
+    },
+    {
+      "id": 3,
+      "name": "Charlie Dunn",
+      "licenseNumber": "DL-11029",
+      "licenseCategory": "Class B",
+      "licenseExpiryDate": "2025-05-10",
+      "contactNumber": "555-0125",
+      "safetyScore": 74,
+      "status": "Available"
+    },
+    {
+      "id": 4,
+      "name": "Dave Miller",
+      "licenseNumber": "DL-77382",
+      "licenseCategory": "Class C",
+      "licenseExpiryDate": "2028-02-14",
+      "contactNumber": "555-0126",
+      "safetyScore": 55,
+      "status": "Suspended"
+    },
+    {
+      "id": 5,
+      "name": "ALEX",
+      "licenseNumber": "DL -79797",
+      "licenseCategory": "Medium Commercial",
+      "licenseExpiryDate": "2029-10-24",
+      "contactNumber": "4979979797",
+      "safetyScore": 100,
+      "status": "Available"
+    }
+  ],
+  "trips": [
+    {
+      "id": 1,
+      "source": "Warehouse North",
+      "destination": "Distribution Hub A",
+      "vehicleId": 2,
+      "driverId": 2,
+      "cargoWeight": 8000,
+      "plannedDistance": 120,
+      "actualDistance": null,
+      "fuelConsumed": null,
+      "status": "Dispatched",
+      "createdAt": "2026-07-10T10:00:00Z",
+      "dispatchedAt": "2026-07-10T10:30:00Z",
+      "completedAt": null
+    },
+    {
+      "id": 2,
+      "source": "Port West",
+      "destination": "Warehouse North",
+      "vehicleId": 1,
+      "driverId": 1,
+      "cargoWeight": 950,
+      "plannedDistance": 45,
+      "actualDistance": 45,
+      "fuelConsumed": 6,
+      "status": "Completed",
+      "createdAt": "2026-07-09T08:00:00Z",
+      "dispatchedAt": "2026-07-09T08:15:00Z",
+      "completedAt": "2026-07-09T10:00:00Z"
+    },
+    {
+      "id": 3,
+      "source": "Warehouse North",
+      "destination": "Distribution Hub A",
+      "vehicleId": 1,
+      "driverId": 1,
+      "cargoWeight": 500,
+      "plannedDistance": 100,
+      "actualDistance": null,
+      "fuelConsumed": null,
+      "revenue": 1250,
+      "status": "Dispatched",
+      "createdAt": "2026-07-12T06:01:21.496Z",
+      "dispatchedAt": "2026-07-12T06:01:21.501Z",
+      "completedAt": null
+    },
+    {
+      "id": 4,
+      "source": "India ",
+      "destination": "America",
+      "vehicleId": 7,
+      "driverId": 5,
+      "cargoWeight": 450,
+      "plannedDistance": 4500,
+      "actualDistance": 4500,
+      "fuelConsumed": 540,
+      "revenue": 56250,
+      "status": "Completed",
+      "createdAt": "2026-07-12T10:27:03.918Z",
+      "dispatchedAt": "2026-07-12T10:27:17.987Z",
+      "completedAt": "2026-07-12T10:28:05.633Z"
+    },
+    {
+      "id": 5,
+      "source": "east",
+      "destination": "west",
+      "vehicleId": 7,
+      "driverId": 5,
+      "cargoWeight": 450,
+      "plannedDistance": 100,
+      "actualDistance": 100,
+      "fuelConsumed": 12,
+      "revenue": 1250,
+      "status": "Completed",
+      "createdAt": "2026-07-12T10:30:38.849Z",
+      "dispatchedAt": "2026-07-12T10:31:09.598Z",
+      "completedAt": "2026-07-12T10:31:55.850Z"
+    }
+  ],
+  "maintenanceLogs": [
+    {
+      "id": 1,
+      "vehicleId": 3,
+      "description": "Scheduled Engine Overhaul",
+      "cost": 1800,
+      "startDate": "2026-07-11",
+      "endDate": null,
+      "status": "Active"
+    },
+    {
+      "id": 2,
+      "vehicleId": 1,
+      "description": "Brake Pads Replacement",
+      "cost": 450,
+      "startDate": "2026-06-15",
+      "endDate": "2026-06-16",
+      "status": "Closed"
+    },
+    {
+      "id": 3,
+      "vehicleId": 4,
+      "description": "oil",
+      "startDate": "2026-07-12",
+      "endDate": null,
+      "cost": 0,
+      "status": "Active"
+    },
+    {
+      "id": 4,
+      "vehicleId": 1,
+      "description": "brakes change",
+      "startDate": "2026-07-12",
+      "endDate": null,
+      "cost": 0,
+      "status": "Active"
+    },
+    {
+      "id": 5,
+      "vehicleId": 7,
+      "description": "OIL CHANGE",
+      "startDate": "2026-07-12",
+      "endDate": null,
+      "cost": 0,
+      "status": "Active"
+    }
+  ],
+  "fuelLogs": [
+    {
+      "id": 1,
+      "vehicleId": 1,
+      "liters": 45,
+      "cost": 90,
+      "logDate": "2026-07-05"
+    },
+    {
+      "id": 2,
+      "vehicleId": 2,
+      "liters": 120,
+      "cost": 240,
+      "logDate": "2026-07-10"
+    },
+    {
+      "id": 3,
+      "vehicleId": 3,
+      "liters": 50,
+      "cost": 105,
+      "logDate": "2026-07-08"
+    },
+    {
+      "id": 4,
+      "vehicleId": 7,
+      "liters": 540,
+      "cost": 1080,
+      "logDate": "2026-07-12"
+    },
+    {
+      "id": 5,
+      "vehicleId": 7,
+      "liters": 12,
+      "cost": 24,
+      "logDate": "2026-07-12"
+    }
+  ],
+  "expenses": [
+    {
+      "id": 1,
+      "vehicleId": 1,
+      "tripId": 2,
+      "expenseType": "Toll",
+      "amount": 25,
+      "expenseDate": "2026-07-09"
+    },
+    {
+      "id": 2,
+      "vehicleId": 2,
+      "tripId": 1,
+      "expenseType": "Permitting",
+      "amount": 150,
+      "expenseDate": "2026-07-10"
+    },
+    {
+      "id": 3,
+      "vehicleId": 2,
+      "tripId": null,
+      "expenseType": "Fine",
+      "amount": 1500,
+      "expenseDate": "2026-07-12"
+    },
+    {
+      "id": 4,
+      "vehicleId": 7,
+      "tripId": null,
+      "expenseType": "Toll",
+      "amount": 45,
+      "expenseDate": "2026-07-12"
+    }
+  ],
+  "documents": [
+    {
+      "id": 1,
+      "name": "VN-05_Registration_2026.pdf",
+      "size": "1.2 MB",
+      "uploadDate": "2026-03-10"
+    },
+    {
+      "id": 2,
+      "name": "TR-01_Safety_Inspection.pdf",
+      "size": "2.4 MB",
+      "uploadDate": "2026-08-22"
+    },
+    {
+      "id": 3,
+      "name": "SD-03_Emission_Certificate.pdf",
+      "size": "1.8 MB",
+      "uploadDate": "2026-07-12"
+    }
+  ]
+}
